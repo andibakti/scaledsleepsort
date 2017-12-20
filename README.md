@@ -12,7 +12,7 @@ But in this project I explore scaling the values of the list down to reduce the 
 This was the initial idea and showed promise. Unfortunately there is a minimum time that a thread can be put to sleep pratical limitations. This causes irregularities as seen below. 
 
 <p align="center">
-  <img src="https://github.com/andibakti/scaledsleepsort/blob/master/log-chart.JPG"/>
+  <img src="https://github.com/andibakti/scaledsleepsort/blob/master/pics/log-chart.JPG"/>
 </p>
 
 Probable culprits:
@@ -26,7 +26,7 @@ One alternative to log scaling is linear scaling he list is scaled linearly usin
 This imposes a scrict limit of 13.5 milliseconds between threads and could theoretically fix the previous issue.
 
 <p align="center">
-  <img src="https://github.com/andibakti/scaledsleepsort/blob/master/linear-chart.JPG"/>
+  <img src="https://github.com/andibakti/scaledsleepsort/blob/master/pics/linear-chart.JPG"/>
 </p>
 
 
