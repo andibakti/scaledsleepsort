@@ -29,6 +29,8 @@ This imposes a scrict limit of 13.5 milliseconds between threads and could theor
   <img src="https://github.com/andibakti/scaledsleepsort/blob/master/pics/linear-chart.JPG"/>
 </p>
 
+*It seems that as n increases, the number of irregularities increases*
+
 
 ## Improvements
 
@@ -40,4 +42,5 @@ This imposes a scrict limit of 13.5 milliseconds between threads and could theor
 ## Conclusion
 
     Good idea... in theory.
+
 
